@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:seven_day/designSystem/widget_fonts.dart';
+import 'package:seven_day/designSystem/Thames.dart';
 
 class GetStartedPage extends StatelessWidget {
   @override

@@ -12,3 +12,15 @@ TextStyle SubTitle = GoogleFonts.poppins(
   fontSize: 16,
   fontWeight: FontWeight.normal,
 );
+
+TextStyle SignInTextStyle = GoogleFonts.openSans(
+  color: Color(0xffF8F8F8),
+  fontSize: 18,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle NewAccountTextStyle = GoogleFonts.openSans(
+  color: Color(0xFFCFCFCF),
+  fontSize: 18,
+  fontWeight: FontWeight.normal,
+);

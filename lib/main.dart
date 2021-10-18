@@ -3,6 +3,7 @@ import 'package:seven_day/pages/first_splast.dart';
 import 'package:seven_day/pages/fist_singin.dart';
 import 'package:seven_day/pages/get_started_page.dart';
 import 'package:seven_day/pages/second_splash.dart';
+import 'package:seven_day/pages/v2_first_sign_in.dart';
 import 'package:seven_day/pages/v2_get_started_screen.dart';
 
 void main() => runApp(SevenDays());
@@ -14,7 +15,7 @@ class SevenDays extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: FIstSignin(),
+      home: BrightSignIn(),
     );
   }
 }
