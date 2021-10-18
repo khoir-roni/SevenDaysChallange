@@ -40,3 +40,14 @@ TextStyle DoneTextstyle = GoogleFonts.poppins(
   fontSize: 18,
   fontWeight: FontWeight.w600,
 );
+
+TextStyle BoostProfit = GoogleFonts.poppins(
+  color: Color(0xFFffffff),
+  fontSize: 24,
+  fontWeight: FontWeight.w600,
+);
+TextStyle OurTool = GoogleFonts.poppins(
+  color: Color(0xFFFFFFFF),
+  fontSize: 16,
+  fontWeight: FontWeight.w300,
+);
