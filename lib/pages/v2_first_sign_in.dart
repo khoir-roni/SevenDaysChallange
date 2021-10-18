@@ -55,22 +55,29 @@ class BrightSignIn extends StatelessWidget {
 
 // Widget tombol
   Widget btnWidget(style, text, color) {
-    return Container(
-      height: 55,
-      width: 320,
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(60.0),
-        color: Color(color),
-        border: Border.all(
-          color: Color(0xffD3D3D3),
-          width: 1,
+    var button = 0;
+    return InkWell(
+      onTap: () {
+        button++;
+        print(button);
+      },
+      child: Container(
+        height: 55,
+        width: 320,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(60.0),
+          color: Color(color),
+          border: Border.all(
+            color: Color(0xffD3D3D3),
+            width: 1,
+          ),
         ),
+        child: Center(
+            child: Text(
+          text,
+          style: style,
+        )),
       ),
-      child: Center(
-          child: Text(
-        text,
-        style: style,
-      )),
     );
   }
 

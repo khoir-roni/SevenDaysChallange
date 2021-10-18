@@ -24,3 +24,19 @@ TextStyle NewAccountTextStyle = GoogleFonts.openSans(
   fontSize: 18,
   fontWeight: FontWeight.normal,
 );
+
+TextStyle SuccesOrder = GoogleFonts.poppins(
+  color: Color(0xFF0E1954),
+  fontSize: 24,
+  fontWeight: FontWeight.w600,
+);
+TextStyle WeWilDelivery = GoogleFonts.poppins(
+  color: Color(0xFF0E1954),
+  fontSize: 16,
+  fontWeight: FontWeight.normal,
+);
+TextStyle DoneTextstyle = GoogleFonts.poppins(
+  color: Color(0xFFF8F8F8),
+  fontSize: 18,
+  fontWeight: FontWeight.w600,
+);

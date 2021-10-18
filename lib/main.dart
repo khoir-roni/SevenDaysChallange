@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:seven_day/pages/empty_state.dart';
 import 'package:seven_day/pages/first_splast.dart';
 import 'package:seven_day/pages/fist_singin.dart';
 import 'package:seven_day/pages/get_started_page.dart';
@@ -15,7 +16,7 @@ class SevenDays extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: BrightSignIn(),
+      home: DarkEmptyState(),
     );
   }
 }
