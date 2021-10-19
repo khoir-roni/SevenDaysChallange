@@ -51,3 +51,24 @@ TextStyle OurTool = GoogleFonts.poppins(
   fontSize: 16,
   fontWeight: FontWeight.w300,
 );
+
+TextStyle PizzaBalado = GoogleFonts.poppins(
+  color: Color(0xFFFFFFFF),
+  fontSize: 24,
+  fontWeight: FontWeight.w600,
+);
+TextStyle PrizeTextstyle = GoogleFonts.poppins(
+  color: Color(0xFFFFFFFF),
+  fontSize: 20,
+  fontWeight: FontWeight.normal,
+);
+TextStyle LabelTextStyle = GoogleFonts.poppins(
+  color: Color(0xFFFFFFFF),
+  fontSize: 18,
+  fontWeight: FontWeight.w500,
+);
+TextStyle RateTextStyle = GoogleFonts.poppins(
+  color: Color(0xFFFFFFFF),
+  fontSize: 16,
+  fontWeight: FontWeight.w600,
+);

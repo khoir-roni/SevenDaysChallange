@@ -30,9 +30,14 @@ class V2EmptyState extends StatelessWidget {
             SizedBox(
               height: 59,
             ),
-            Image.asset(
-              'assets/rocket.png',
-              height: 65,
+            GestureDetector(
+              onTap: () {
+                print('Rocket');
+              },
+              child: Image.asset(
+                'assets/rocket.png',
+                height: 65,
+              ),
             ),
           ],
         ),
