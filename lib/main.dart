@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:seven_day/pages/dark_pricing_screen.dart';
 import 'package:seven_day/pages/empty_state.dart';
 import 'package:seven_day/pages/first_splast.dart';
 import 'package:seven_day/pages/fist_singin.dart';
@@ -20,7 +21,7 @@ class SevenDays extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: PricingScreen(),
+      home: DarkPricingScreen(),
     );
   }
 }

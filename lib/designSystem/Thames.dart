@@ -1,36 +1,36 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-TextStyle MaximumRevenu = GoogleFonts.poppins(
+TextStyle maximumRevenu = GoogleFonts.poppins(
   color: Colors.white,
   fontSize: 24,
   fontWeight: FontWeight.w600,
 );
 
-TextStyle SubTitle = GoogleFonts.poppins(
+TextStyle subTitle = GoogleFonts.poppins(
   color: Colors.white,
   fontSize: 16,
   fontWeight: FontWeight.normal,
 );
 
-TextStyle SignInTextStyle = GoogleFonts.openSans(
+TextStyle signInTextStyle = GoogleFonts.openSans(
   color: Color(0xffF8F8F8),
   fontSize: 18,
   fontWeight: FontWeight.w600,
 );
 
-TextStyle NewAccountTextStyle = GoogleFonts.openSans(
+TextStyle newAccountTextStyle = GoogleFonts.openSans(
   color: Color(0xFFCFCFCF),
   fontSize: 18,
   fontWeight: FontWeight.normal,
 );
 
-TextStyle SuccesOrder = GoogleFonts.poppins(
+TextStyle succesOrder = GoogleFonts.poppins(
   color: Color(0xFF0E1954),
   fontSize: 24,
   fontWeight: FontWeight.w600,
 );
-TextStyle WeWilDelivery = GoogleFonts.poppins(
+TextStyle weWilDelivery = GoogleFonts.poppins(
   color: Color(0xFF0E1954),
   fontSize: 16,
   fontWeight: FontWeight.normal,

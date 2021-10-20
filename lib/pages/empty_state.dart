@@ -24,7 +24,7 @@ class DarkEmptyState extends StatelessWidget {
             ),
             Text(
               'Success Order',
-              style: SuccesOrder,
+              style: succesOrder,
             ),
             SizedBox(
               height: 16,
@@ -32,7 +32,7 @@ class DarkEmptyState extends StatelessWidget {
             Text(
               'We will delivery your package \nas soon as possible',
               textAlign: TextAlign.center,
-              style: WeWilDelivery,
+              style: weWilDelivery,
             ),
             SizedBox(
               height: 50,

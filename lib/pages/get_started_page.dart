@@ -25,7 +25,7 @@ class GetStartedPage extends StatelessWidget {
             ),
             child: Text(
               'Maximize Revenue',
-              style: MaximumRevenu,
+              style: maximumRevenu,
               textAlign: TextAlign.center,
             ),
           ),
@@ -37,7 +37,7 @@ class GetStartedPage extends StatelessWidget {
             ),
             child: Text(
               'Gain more profit from cryptocurrency \nwithout any risk involved',
-              style: SubTitle,
+              style: subTitle,
               textAlign: TextAlign.center,
             ),
           ),

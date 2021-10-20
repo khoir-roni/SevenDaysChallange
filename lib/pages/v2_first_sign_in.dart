@@ -108,11 +108,11 @@ class BrightSignIn extends StatelessWidget {
               SizedBox(
                 height: 50,
               ),
-              btnWidget(SignInTextStyle, 'Sign in', 0xff5468FF),
+              btnWidget(signInTextStyle, 'Sign in', 0xff5468FF),
               SizedBox(
                 height: 16,
               ),
-              btnWidget(NewAccountTextStyle, 'Create New Account', 0x00FFFFFF),
+              btnWidget(newAccountTextStyle, 'Create New Account', 0x00FFFFFF),
             ],
           ),
         ),
