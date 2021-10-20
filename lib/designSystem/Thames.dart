@@ -72,3 +72,31 @@ TextStyle RateTextStyle = GoogleFonts.poppins(
   fontSize: 16,
   fontWeight: FontWeight.w600,
 );
+TextStyle WhichTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF191919),
+  fontSize: 22,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle TitleTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF191919),
+  fontSize: 16,
+  fontWeight: FontWeight.w500,
+);
+
+TextStyle SubTitleTextStyle = GoogleFonts.poppins(
+  color: Color(0xFFA3A8B8),
+  fontSize: 14,
+  fontWeight: FontWeight.w300,
+);
+
+TextStyle PurpleSubTitleTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF5343C2),
+  fontSize: 14,
+  fontWeight: FontWeight.w500,
+);
+TextStyle UpgradeTextStyle = GoogleFonts.poppins(
+  color: Color(0xFFFFFFFF),
+  fontSize: 18,
+  fontWeight: FontWeight.w600,
+);
