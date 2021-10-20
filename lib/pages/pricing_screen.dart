@@ -111,31 +111,36 @@ class _PricingScreenState extends State<PricingScreen> {
   }
 
   Widget buttomBar() {
-    return Container(
-        height: 70,
-        width: MediaQuery.of(context).size.width,
-        decoration: BoxDecoration(
-          color: Color(0xff6050E7),
-        ),
-        child: Padding(
-          padding: const EdgeInsets.only(
-            left: 30,
-            right: 30,
+    return GestureDetector(
+      onTap: () {
+        print('Upgrade Now');
+      },
+      child: Container(
+          height: 70,
+          width: MediaQuery.of(context).size.width,
+          decoration: BoxDecoration(
+            color: Color(0xff6050E7),
           ),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                'Upgrade Now',
-                style: UpgradeTextStyle,
-              ),
-              Image.asset(
-                'assets/arrow_right.png',
-                height: 20,
-              ),
-            ],
-          ),
-        ));
+          child: Padding(
+            padding: const EdgeInsets.only(
+              left: 30,
+              right: 30,
+            ),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  'Upgrade Now',
+                  style: UpgradeTextStyle,
+                ),
+                Image.asset(
+                  'assets/arrow_right.png',
+                  height: 20,
+                ),
+              ],
+            ),
+          )),
+    );
   }
 
   @override
@@ -183,6 +188,39 @@ class _PricingScreenState extends State<PricingScreen> {
         ),
       ),
       bottomNavigationBar: buttomBar(),
+      // bottomNavigationBar: BottomNavigationBar(
+      //   backgroundColor: Color(0xff6050E7),
+      //   items: <BottomNavigationBarItem>[
+      //     BottomNavigationBarItem(
+      //       icon: Padding(
+      //         padding: const EdgeInsets.only(
+      //           top: 21,
+      //           left: 30,
+      //         ),
+      //         child: Text(
+      //           'Upgrade Now',
+      //           style: UpgradeTextStyle,
+      //         ),
+      //       ),
+      //       label: '',
+      //     ),
+      //     BottomNavigationBarItem(
+      //       icon: Padding(
+      //         padding: const EdgeInsets.only(
+      //           top: 23,
+      //           left: 126,
+      //           right: 30,
+      //         ),
+      //         child: Image.asset(
+      //           'assets/arrow_right.png',
+      //           height: 24,
+      //           width: 24,
+      //         ),
+      //       ),
+      //       label: '',
+      //     ),
+      //   ],
+      // ),
     );
   }
 }
