@@ -53,7 +53,7 @@ class DarkEmptyState extends StatelessWidget {
                 ),
                 child: Text(
                   'Done',
-                  style: DoneTextstyle,
+                  style: doneTextstyle,
                 ),
               ),
             ),

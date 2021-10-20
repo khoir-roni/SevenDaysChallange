@@ -35,68 +35,94 @@ TextStyle weWilDelivery = GoogleFonts.poppins(
   fontSize: 16,
   fontWeight: FontWeight.normal,
 );
-TextStyle DoneTextstyle = GoogleFonts.poppins(
+TextStyle doneTextstyle = GoogleFonts.poppins(
   color: Color(0xFFF8F8F8),
   fontSize: 18,
   fontWeight: FontWeight.w600,
 );
 
-TextStyle BoostProfit = GoogleFonts.poppins(
+TextStyle boostProfit = GoogleFonts.poppins(
   color: Color(0xFFffffff),
   fontSize: 24,
   fontWeight: FontWeight.w600,
 );
-TextStyle OurTool = GoogleFonts.poppins(
+TextStyle ourTool = GoogleFonts.poppins(
   color: Color(0xFFFFFFFF),
   fontSize: 16,
   fontWeight: FontWeight.w300,
 );
 
-TextStyle PizzaBalado = GoogleFonts.poppins(
+TextStyle pizzaBalado = GoogleFonts.poppins(
   color: Color(0xFFFFFFFF),
   fontSize: 24,
   fontWeight: FontWeight.w600,
 );
-TextStyle PrizeTextstyle = GoogleFonts.poppins(
+TextStyle prizeTextstyle = GoogleFonts.poppins(
   color: Color(0xFFFFFFFF),
   fontSize: 20,
   fontWeight: FontWeight.normal,
 );
-TextStyle LabelTextStyle = GoogleFonts.poppins(
+TextStyle labelTextStyle = GoogleFonts.poppins(
   color: Color(0xFFFFFFFF),
   fontSize: 18,
   fontWeight: FontWeight.w500,
 );
-TextStyle RateTextStyle = GoogleFonts.poppins(
+TextStyle rateTextStyle = GoogleFonts.poppins(
   color: Color(0xFFFFFFFF),
   fontSize: 16,
   fontWeight: FontWeight.w600,
 );
-TextStyle WhichTextStyle = GoogleFonts.poppins(
+TextStyle whichTextStyle = GoogleFonts.poppins(
   color: Color(0xFF191919),
   fontSize: 22,
   fontWeight: FontWeight.w600,
 );
 
-TextStyle TitleTextStyle = GoogleFonts.poppins(
+TextStyle titleTextStyle = GoogleFonts.poppins(
   color: Color(0xFF191919),
   fontSize: 16,
   fontWeight: FontWeight.w500,
 );
 
-TextStyle SubTitleTextStyle = GoogleFonts.poppins(
+TextStyle subTitleTextStyle = GoogleFonts.poppins(
   color: Color(0xFFA3A8B8),
   fontSize: 14,
   fontWeight: FontWeight.w300,
 );
 
-TextStyle PurpleSubTitleTextStyle = GoogleFonts.poppins(
+TextStyle purpleSubTitleTextStyle = GoogleFonts.poppins(
   color: Color(0xFF5343C2),
   fontSize: 14,
   fontWeight: FontWeight.w500,
 );
-TextStyle UpgradeTextStyle = GoogleFonts.poppins(
+TextStyle upgradeTextStyle = GoogleFonts.poppins(
   color: Color(0xFFFFFFFF),
   fontSize: 18,
   fontWeight: FontWeight.w600,
+);
+TextStyle proTextStyle = GoogleFonts.poppins(
+  color: Color(0xFFFFFFFF),
+  fontSize: 22,
+  fontWeight: FontWeight.w600,
+);
+TextStyle unlockTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF7F7FAD),
+  fontSize: 16,
+  fontWeight: FontWeight.normal,
+);
+TextStyle listTextStyle = GoogleFonts.poppins(
+  color: Color(0xFFFFFFFF),
+  fontSize: 16,
+  fontWeight: FontWeight.normal,
+);
+TextStyle subcribeTextStyle = GoogleFonts.poppins(
+  color: Color(0xFFFFFFFF),
+  fontSize: 16,
+  fontWeight: FontWeight.w600,
+);
+TextStyle contactUsTextStyle = GoogleFonts.poppins(
+  color: Color(0xFFFFFFFF),
+  fontSize: 16,
+  fontWeight: FontWeight.normal,
+  decoration: TextDecoration.underline,
 );

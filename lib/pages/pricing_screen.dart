@@ -17,7 +17,7 @@ class _PricingScreenState extends State<PricingScreen> {
         ),
         Text(
           'Which one you wish \nto Upgrade?',
-          style: WhichTextStyle,
+          style: whichTextStyle,
         ),
       ],
     );
@@ -69,20 +69,20 @@ class _PricingScreenState extends State<PricingScreen> {
                   children: [
                     Text(
                       title,
-                      style: TitleTextStyle,
+                      style: titleTextStyle,
                     ),
                     Row(
                       children: [
                         Text(
                           subTitle,
-                          style: SubTitleTextStyle,
+                          style: subTitleTextStyle,
                         ),
                         SizedBox(
                           width: 5,
                         ),
                         Text(
                           subSubTitle,
-                          style: PurpleSubTitleTextStyle,
+                          style: purpleSubTitleTextStyle,
                         )
                       ],
                     ),
@@ -131,7 +131,7 @@ class _PricingScreenState extends State<PricingScreen> {
               children: [
                 Text(
                   'Upgrade Now',
-                  style: UpgradeTextStyle,
+                  style: upgradeTextStyle,
                 ),
                 Image.asset(
                   'assets/arrow_right.png',

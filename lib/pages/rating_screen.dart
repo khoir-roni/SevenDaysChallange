@@ -20,7 +20,7 @@ class RatingScreen extends StatelessWidget {
             ),
             Text(
               'Pizza Ballado',
-              style: PizzaBalado,
+              style: pizzaBalado,
               textAlign: TextAlign.center,
             ),
             SizedBox(
@@ -28,7 +28,7 @@ class RatingScreen extends StatelessWidget {
             ),
             Text(
               '\$90.00',
-              style: PrizeTextstyle,
+              style: prizeTextstyle,
             ),
             SizedBox(
               height: 90,
@@ -38,7 +38,7 @@ class RatingScreen extends StatelessWidget {
               children: [
                 Text(
                   'Was it delicious?',
-                  style: LabelTextStyle,
+                  style: labelTextStyle,
                 ),
                 SizedBox(
                   height: 20,
@@ -92,7 +92,7 @@ class RatingScreen extends StatelessWidget {
                 child: Center(
                   child: Text(
                     'Rate Now',
-                    style: RateTextStyle,
+                    style: rateTextStyle,
                   ),
                 ),
               ),

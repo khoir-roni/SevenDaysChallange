@@ -17,14 +17,14 @@ class V2EmptyState extends StatelessWidget {
             ),
             Text(
               'Boost Profit!',
-              style: BoostProfit,
+              style: boostProfit,
             ),
             SizedBox(
               height: 16,
             ),
             Text(
               'Our tools are helping business \nto grow much faster',
-              style: OurTool,
+              style: ourTool,
               textAlign: TextAlign.center,
             ),
             SizedBox(
