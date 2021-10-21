@@ -153,17 +153,30 @@ class RandomScreen extends StatelessWidget {
     color,
     textStyle,
   ) {
-    return Container(
-      width: 327,
-      height: 60,
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(20),
-        color: color,
-      ),
-      child: Align(
-        child: Text(
-          textBtn,
-          style: textStyle,
+    return InkWell(
+      onTap: () {
+        print(textBtn);
+      },
+      child: Container(
+        width: 327,
+        height: 60,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          color: color,
+          boxShadow: [
+            BoxShadow(
+              color: Color(0xFF808080),
+              blurRadius: 5.0,
+              spreadRadius: 1.0,
+              offset: Offset(3.0, 5.0),
+            ),
+          ],
+        ),
+        child: Align(
+          child: Text(
+            textBtn,
+            style: textStyle,
+          ),
         ),
       ),
     );

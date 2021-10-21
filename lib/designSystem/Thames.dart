@@ -169,3 +169,48 @@ TextStyle billTextStyle = GoogleFonts.poppins(
   fontSize: 16,
   fontWeight: FontWeight.normal,
 );
+TextStyle nameTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF000000),
+  fontSize: 26,
+  fontWeight: FontWeight.w500,
+);
+TextStyle locationTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF2F323A),
+  fontSize: 16,
+  fontWeight: FontWeight.w300,
+);
+TextStyle aboutTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF000000),
+  fontSize: 16,
+  fontWeight: FontWeight.w500,
+);
+TextStyle descriptionTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF2F323A),
+  fontSize: 16,
+  fontWeight: FontWeight.w300,
+);
+TextStyle daysTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF2F323A),
+  fontSize: 20,
+  fontWeight: FontWeight.w500,
+);
+TextStyle dateTextStyle = GoogleFonts.poppins(
+  color: Color(0xFFA8ACB6),
+  fontSize: 12,
+  fontWeight: FontWeight.normal,
+);
+TextStyle totalPrizeTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF3F6DF6),
+  fontSize: 22,
+  fontWeight: FontWeight.w500,
+);
+TextStyle timeTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF2F323A),
+  fontSize: 12,
+  fontWeight: FontWeight.w300,
+);
+TextStyle continueTextStyle = GoogleFonts.poppins(
+  color: Color(0xFFFAFAFA),
+  fontSize: 18,
+  fontWeight: FontWeight.w600,
+);

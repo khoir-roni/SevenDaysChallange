@@ -61,12 +61,9 @@ class V2GetStartedScreen extends StatelessWidget {
               width: 295,
               color: Color(0xffAFEA0D),
               child: TextButton(
-                style: TextButton.styleFrom(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(0),
-                  ),
-                ),
-                onPressed: () {},
+                onPressed: () {
+                  print('Shape My Body');
+                },
                 child: Text(
                   'Shape My Body',
                   style: GoogleFonts.lato(
