@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+Color abuAbu = Color(0xffD9D9D9);
+Color kuning = Color(0xffFFC532);
+
 TextStyle maximumRevenu = GoogleFonts.poppins(
   color: Colors.white,
   fontSize: 24,
@@ -125,4 +128,44 @@ TextStyle contactUsTextStyle = GoogleFonts.poppins(
   fontSize: 16,
   fontWeight: FontWeight.normal,
   decoration: TextDecoration.underline,
+);
+TextStyle myShoppingTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF191919),
+  fontSize: 22,
+  fontWeight: FontWeight.w600,
+);
+TextStyle menuTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF191919),
+  fontSize: 18,
+  fontWeight: FontWeight.w500,
+);
+TextStyle cafeTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF191919),
+  fontSize: 14,
+  fontWeight: FontWeight.w300,
+);
+TextStyle priceTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF191919),
+  fontSize: 16,
+  fontWeight: FontWeight.w600,
+);
+TextStyle checkoutTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF2E221B),
+  fontSize: 18,
+  fontWeight: FontWeight.w600,
+);
+TextStyle saveToWishlistTextStyle = GoogleFonts.poppins(
+  color: Color(0xFFFFFFFF),
+  fontSize: 18,
+  fontWeight: FontWeight.w500,
+);
+TextStyle infoTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF191919),
+  fontSize: 16,
+  fontWeight: FontWeight.w500,
+);
+TextStyle billTextStyle = GoogleFonts.poppins(
+  color: Color(0xFF191919),
+  fontSize: 16,
+  fontWeight: FontWeight.normal,
 );

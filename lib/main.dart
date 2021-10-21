@@ -5,6 +5,7 @@ import 'package:seven_day/pages/first_splast.dart';
 import 'package:seven_day/pages/fist_singin.dart';
 import 'package:seven_day/pages/get_started_page.dart';
 import 'package:seven_day/pages/pricing_screen.dart';
+import 'package:seven_day/pages/random_screen.dart';
 import 'package:seven_day/pages/rating_screen.dart';
 import 'package:seven_day/pages/second_splash.dart';
 import 'package:seven_day/pages/v2_empty_state.dart';
@@ -21,7 +22,7 @@ class SevenDays extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: DarkPricingScreen(),
+      home: RandomScreen(),
     );
   }
 }
